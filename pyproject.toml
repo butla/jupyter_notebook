@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jupyter_template"
+version = "0.1.0"
+description = "Template for my Jupyter notebooks"
+authors = ["Michal Bultrowicz <michal.bultrowicz@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+seaborn = "^0.10.0"
+jupyter = "^1.0"
+pandas = "^1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
