@@ -6,7 +6,7 @@ authors = ["Michal Bultrowicz <michal.bultrowicz@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "~3.9"
 seaborn = "^0.10.0"
 jupyter = "^1.0"
 pandas = "^1.0"
